@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { DatePicker, TimePicker } from "@mui/x-date-pickers";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
@@ -227,7 +227,9 @@ export default function App() {
           renderInput={(params) => <TextField {...params} />}
         />
       </LocalizationProvider>
-      <h1 className="text-9xl font-semibold">{value}</h1>
+      <h1 className="text-4xl font-semibold mt-4">
+        Sola Panel Angle: <span className="text-6xl">{value}&deg;</span>
+      </h1>
     </div>
   );
 }
