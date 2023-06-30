@@ -228,7 +228,7 @@ export default function App() {
         />
       </LocalizationProvider>
       <h1 className="text-4xl font-semibold mt-4">
-        Sola Panel Angle: <span className="text-6xl">{value}&deg;</span>
+        solar Panel Angle: <span className="text-6xl">{value}&deg;</span>
       </h1>
     </div>
   );
